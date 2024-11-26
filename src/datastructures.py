@@ -10,10 +10,10 @@ from random import randint
 class FamilyStructure:
     def __init__(self, last_name):
         self.last_name = last_name
-        self._next_id = 1  # Used to generate sequential IDs
-        self._members = []  # List to store family members
+        self._next_id = 1
+        self._members = []
 
-    # Generate a unique ID for new members
+    # Generar id unicos
     def _generate_id(self):
         generated_id = self._next_id
         self._next_id += 1
