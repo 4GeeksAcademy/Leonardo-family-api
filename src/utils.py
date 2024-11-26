@@ -32,6 +32,6 @@ def generate_sitemap(app):
     links_html = "".join(["<li><a href='" + y + "'>" + y + "</a></li>" for y in links])
     return """
         <div style="text-align: center;">
-        <img src='https://github.com/breatheco-de/exercise-family-static-api/blob/master/rigo-baby.jpeg?raw=true' />
-        <h1>Hello Rigo!!</h1>
-        This is your api home, remember to specify a real endpoint path like: <ul style="text-align: left;">"""+links_html+"</ul></div>"
+        <img src='https://ih1.redbubble.net/image.5383479310.7842/st,small,507x507-pad,600x600,f8f8f8.jpg' />
+        <h1>Hola Familia Jackson!!</h1>
+        Esta es la API de la Familia JAckson para conocer mas de los integrantes <ul style="text-align: left;">"""+links_html+"</ul></div>"
